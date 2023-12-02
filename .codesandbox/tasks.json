@@ -12,7 +12,14 @@
     "start": {
       "name": "Start development server",
       "command": "rails s",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "ruby:typecheck": {
+      "name": "Typecheck",
+      "command": "solargraph typecheck"
     }
   }
 }
